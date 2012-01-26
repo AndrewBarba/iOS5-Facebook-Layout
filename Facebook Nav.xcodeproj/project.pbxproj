@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383F3ED014D1C7680090EEBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F3ECF14D1C7680090EEBE /* UIKit.framework */; };
+		383F3ED214D1C7680090EEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F3ED114D1C7680090EEBE /* Foundation.framework */; };
+		383F3ED414D1C7680090EEBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F3ED314D1C7680090EEBE /* CoreGraphics.framework */; };
+		383F3EDA14D1C7680090EEBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383F3ED814D1C7680090EEBE /* InfoPlist.strings */; };
+		383F3EDC14D1C7680090EEBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F3EDB14D1C7680090EEBE /* main.m */; };
+		383F3EE014D1C7680090EEBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F3EDF14D1C7680090EEBE /* AppDelegate.m */; };
+		383F3EE314D1C7680090EEBE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383F3EE114D1C7680090EEBE /* MainStoryboard_iPhone.storyboard */; };
+		383F3EE614D1C7680090EEBE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383F3EE414D1C7680090EEBE /* MainStoryboard_iPad.storyboard */; };
+		383F3EE914D1C7680090EEBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F3EE814D1C7680090EEBE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		383F3ECB14D1C7680090EEBE /* Facebook Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383F3ECF14D1C7680090EEBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		383F3ED114D1C7680090EEBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		383F3ED314D1C7680090EEBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		383F3ED714D1C7680090EEBE /* Facebook Nav-Info.plist */ = {isa = PBXFileReference; path = "Facebook Nav-Info.plist"; sourceTree = "<group>"; };
+		383F3ED914D1C7680090EEBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		383F3EDB14D1C7680090EEBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		383F3EDD14D1C7680090EEBE /* Facebook Nav-Prefix.pch */ = {isa = PBXFileReference; path = "Facebook Nav-Prefix.pch"; sourceTree = "<group>"; };
+		383F3EDE14D1C7680090EEBE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		383F3EDF14D1C7680090EEBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		383F3EE214D1C7680090EEBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		383F3EE514D1C7680090EEBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		383F3EE714D1C7680090EEBE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		383F3EE814D1C7680090EEBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383F3EC814D1C7680090EEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383F3ED014D1C7680090EEBE /* UIKit.framework in Frameworks */,
+				383F3ED214D1C7680090EEBE /* Foundation.framework in Frameworks */,
+				383F3ED414D1C7680090EEBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383F3EC014D1C7680090EEBE = {
+			isa = PBXGroup;
+			children = (
+				383F3ED514D1C7680090EEBE /* Facebook Nav */,
+				383F3ECE14D1C7680090EEBE /* Frameworks */,
+				383F3ECC14D1C7680090EEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383F3ECC14D1C7680090EEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383F3ECB14D1C7680090EEBE /* Facebook Nav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383F3ECE14D1C7680090EEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383F3ECF14D1C7680090EEBE /* UIKit.framework */,
+				383F3ED114D1C7680090EEBE /* Foundation.framework */,
+				383F3ED314D1C7680090EEBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		383F3ED514D1C7680090EEBE /* Facebook Nav */ = {
+			isa = PBXGroup;
+			children = (
+				383F3EDE14D1C7680090EEBE /* AppDelegate.h */,
+				383F3EDF14D1C7680090EEBE /* AppDelegate.m */,
+				383F3EE114D1C7680090EEBE /* MainStoryboard_iPhone.storyboard */,
+				383F3EE414D1C7680090EEBE /* MainStoryboard_iPad.storyboard */,
+				383F3EE714D1C7680090EEBE /* ViewController.h */,
+				383F3EE814D1C7680090EEBE /* ViewController.m */,
+				383F3ED614D1C7680090EEBE /* Supporting Files */,
+			);
+			path = "Facebook Nav";
+			sourceTree = "<group>";
+		};
+		383F3ED614D1C7680090EEBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				383F3ED714D1C7680090EEBE /* Facebook Nav-Info.plist */,
+				383F3ED814D1C7680090EEBE /* InfoPlist.strings */,
+				383F3EDB14D1C7680090EEBE /* main.m */,
+				383F3EDD14D1C7680090EEBE /* Facebook Nav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383F3ECA14D1C7680090EEBE /* Facebook Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383F3EEC14D1C7680090EEBE /* Build configuration list for PBXNativeTarget "Facebook Nav" */;
+			buildPhases = (
+				383F3EC714D1C7680090EEBE /* Sources */,
+				383F3EC814D1C7680090EEBE /* Frameworks */,
+				383F3EC914D1C7680090EEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook Nav";
+			productName = "Facebook Nav";
+			productReference = 383F3ECB14D1C7680090EEBE /* Facebook Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383F3EC214D1C7680090EEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 383F3EC514D1C7680090EEBE /* Build configuration list for PBXProject "Facebook Nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 383F3EC014D1C7680090EEBE;
+			productRefGroup = 383F3ECC14D1C7680090EEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383F3ECA14D1C7680090EEBE /* Facebook Nav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383F3EC914D1C7680090EEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383F3EDA14D1C7680090EEBE /* InfoPlist.strings in Resources */,
+				383F3EE314D1C7680090EEBE /* MainStoryboard_iPhone.storyboard in Resources */,
+				383F3EE614D1C7680090EEBE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383F3EC714D1C7680090EEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383F3EDC14D1C7680090EEBE /* main.m in Sources */,
+				383F3EE014D1C7680090EEBE /* AppDelegate.m in Sources */,
+				383F3EE914D1C7680090EEBE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		383F3ED814D1C7680090EEBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383F3ED914D1C7680090EEBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		383F3EE114D1C7680090EEBE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383F3EE214D1C7680090EEBE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		383F3EE414D1C7680090EEBE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383F3EE514D1C7680090EEBE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383F3EEA14D1C7680090EEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		383F3EEB14D1C7680090EEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383F3EED14D1C7680090EEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facebook Nav/Facebook Nav-Prefix.pch";
+				INFOPLIST_FILE = "Facebook Nav/Facebook Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		383F3EEE14D1C7680090EEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facebook Nav/Facebook Nav-Prefix.pch";
+				INFOPLIST_FILE = "Facebook Nav/Facebook Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383F3EC514D1C7680090EEBE /* Build configuration list for PBXProject "Facebook Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383F3EEA14D1C7680090EEBE /* Debug */,
+				383F3EEB14D1C7680090EEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383F3EEC14D1C7680090EEBE /* Build configuration list for PBXNativeTarget "Facebook Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383F3EED14D1C7680090EEBE /* Debug */,
+				383F3EEE14D1C7680090EEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383F3EC214D1C7680090EEBE /* Project object */;
+}
